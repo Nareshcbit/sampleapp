@@ -10,3 +10,8 @@ services:
   mysql:
     container_name: db
     image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "Welcome"
+      MYSQL_DATABASE: "mydb"
+      MYSQL_USER: "naresh"
+      MYSQL_PASSWORD: "Welcome"
