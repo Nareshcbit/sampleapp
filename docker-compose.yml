@@ -1,0 +1,9 @@
+version: "2.2"
+#This is a 3-container app.  Each service defines a container
+services:
+  flask:
+    image: python:alpine3.6
+  redis:
+    image: redis:3.2.11
+  mysql:
+    image: mysql:5.7
